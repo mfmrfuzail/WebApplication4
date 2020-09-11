@@ -4,6 +4,7 @@ namespace WebApplication4
 {
     public class WeatherForecast
     {
+        public string id { get; set; }
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }
